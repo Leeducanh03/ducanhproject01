@@ -1,0 +1,387 @@
+                                                                                                                                                                                                                                                                                                                                                                                                                                                     * {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.header{
+	width: 100%;
+	height: 80px;
+	z-index: 1;
+}
+.nav>li{
+	float: left;
+	margin-right: 15px;
+  }
+  .nav>li>a{
+	text-transform: uppercase;
+	color: #fff;
+  }
+  .nav li{
+	position: relative;
+	list-style:none;
+  }
+  .nav li a{
+	padding: 10px;
+	line-height: 20px;
+	display: inline-block;
+  }
+  .nav .sub-menu{
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 100%;
+	width: 200px;
+	background-color: rgb(211, 61, 15);
+	padding: 5px 20px;
+  }
+  .nav li:hover>.sub-menu{
+	display: block;
+  }
+  .nav>li>.sub-menu{
+	top: 40px;
+	left: 0;
+  }
+.row {
+	display: flex;
+	max-width: 100%;
+	flex-wrap: wrap;
+	margin-left: -15px;
+	margin-right: -15px;
+	justify-content: space-around;
+}
+input {
+	width: 250px;
+	height: 30px;
+	margin-top: 7px;
+	border: 1px solid black;
+	border-radius: 2px;
+	outline: none;
+	margin-left: 150px;
+}
+.list-data{
+	position: absolute;
+	top: 100px;	
+}
+.list-data 
+.col-2-menu img{
+	width: 30px;
+	height: 30px;
+	border: 1px solid white;
+	border-radius: 10px;
+	margin-left: 20px;
+}
+.col-2-menu{
+	/* width: 200px; */
+	height: 30px;
+	display: flex;
+}
+.cell-phone{
+	font-size: 20px;
+	color: #fff;
+	margin-top: 30px;
+}
+header {
+	background-color: #D70018;
+	padding: 10px 0 10px 0;
+}
+a:hover {
+	color: black;
+}
+a {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+}
+p {
+	margin: 10px 0 10px 0;
+}
+.row1{
+	width: 100%;
+	text-align: center;
+}
+.title h3 {
+	font-size: 30px;
+	text-align: center;
+	color: rgba(0,0,0,0.8);
+    height: 60px;
+}
+.title1 h3 {
+	font-size: 30px;
+	color: rgba(0,0,0,0.8);
+	height: 60px;
+	text-align: center;
+}
+.menu{
+	margin-bottom: 10px;
+}
+.box1{
+	margin-right: 135px;
+}
+#dangnhap{
+	margin-left: 50px;
+}
+#dangky{
+	position: relative;
+	right: 50px;
+}
+.col-2 {
+	/* border: 2px solid gold; */
+	flex: 16.666667%;
+    max-width: 16.666667%;
+	position: relative;
+	right: 265px;	
+}
+.col-3 {
+	flex:  25%;
+    max-width: 25%;
+}
+.col-8 {
+	flex: 66.666667%;
+    max-width: 66.666667%;	
+}
+.all{
+	margin-left: 500px;
+	display: flex;
+	font-family:'Times New Roman', Times, serif;
+}
+.danhmuc{
+	margin-right: 40px;
+	display: flex;
+}
+.danhmuc2{
+	display: flex;
+}
+.col-2th {
+	flex:  20%;
+    max-width: 20%;
+	border: 1px solid black;
+}
+.col-12 {
+	flex:  100%;
+    max-width: 100%;
+}
+.menu ul li {
+	float: left;
+	margin-left: 20px;
+	list-style: none;
+}
+.menu {
+	/* border: 2px solid white; */
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+ul.menu_child {
+	position: absolute;
+	width: 225px;
+	background-color: #FA8258;
+	z-index: 9999;
+	/* border: 2px solid green; */
+
+}
+ul.menu_child li {
+	padding: 15px 0 0 0 ;
+	float: none;
+	display: none;
+}
+.menu ul li:hover ul.menu_child li {
+	display: block;
+}
+.mySlides {
+	display: none;
+}
+.slideshow-container {
+	max-width: 100%;
+	position: relative;
+	margin: unset;
+}
+img {
+	vertical-align: middle;
+}
+.prev , .next{
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-top: -22px;
+	color: white;
+	font-weight: bolder;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+     from {opacity: .4} 
+    to {opacity: 1}
+}
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+@media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+}
+.slider-margin {
+	margin-top: 20px;
+}
+.image img {
+	width: 100%;
+}
+.card {
+	margin-bottom: 20px;
+}
+footer {
+	display: block;
+	background-color: rgba(64, 81, 155, 0.8);
+	padding: 20px 0 10px 0;
+}
+
+.customer{
+	
+	text-align: center;
+	margin-left: 40px;
+}
+.customer ul{
+	text-align: justify;
+}
+.address{
+	
+	text-align: center;
+	margin-right: 0px;
+}
+.address ul{
+	text-align: justify;
+}
+.product h3{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.product li {
+	text-align: center;
+	text-decoration: none;
+	list-style: none;
+	margin-right: 10px;
+}
+
+.internet{
+	text-align: center;
+}
+.internet li{
+	margin-right: 30px;
+	margin-top: 30px;
+}
+.company{
+	
+	margin: 0 auto;
+	margin-top: 15px;
+}
+ul.menu_footer li {
+	list-style: none;
+	display: inline-block;
+	justify-content: space-around;
+}
+#mangxahoi{
+	margin-left: -50px;
+}
+.footer {
+	padding-bottom: 30px;
+	
+}
+.footer h3 {
+	color: rgb(245, 247, 243);
+}
+.copy_right {
+	padding: 10px 0 0px 0;
+	text-align: center;
+	border-top: 1px solid #fff;
+}
+.sticky-top {
+	position: fixed;
+	width: 100%;
+	/* position: sticky; */
+	/* top: 0; */
+	/* z-index: 1; */
+}
+.image {
+    width: 70%;
+}
+.apple {
+    margin-top: 45px;
+}
+.image1{
+    margin-top: 25px;
+}
+.hihi{
+    margin-top: 15px;
+}
+.image2{
+    margin-top: 25px;
+}
+.kaka{
+	margin-top: 100px;
+}
+.image2{
+	margin-top: 50px;
+}
+.row1{
+	display: flex;
+	max-width: 100%;
+	flex-wrap: wrap;
+	margin-left: -15px;
+	margin-right: -15px;
+}
+.link {
+	position: absolute;
+	right: 55.5%;
+	padding-top:15px ;
+}
+.link2{
+	position: absolute;
+	padding-top: 20px;
+	right: 42%;
+}
